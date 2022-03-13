@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (C) 2011 The Android Open Source Project
+                   2022 Project Kaleidoscope
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -33,10 +34,10 @@
         android:layout_weight="1"
         android:background="#00000000"/>
     <!-- Dialpad shadow -->
-    <View
+    <!-- View
         android:layout_width="match_parent"
         android:layout_height="@dimen/shadow_length"
-        android:background="@drawable/shadow_fade_up"/>
+        android:background="@drawable/shadow_fade_up"/ -->
     <include layout="@layout/dialpad_view"/>
     <!-- "Dialpad chooser" UI, shown only when the user brings up the
              Dialer while a call is already in progress.

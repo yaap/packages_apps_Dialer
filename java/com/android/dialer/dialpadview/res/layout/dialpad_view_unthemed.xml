@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (C) 2015 The Android Open Source Project
+                   2022 Project Kaleidoscope
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -22,7 +23,8 @@
     android:clickable="true"
     android:elevation="?attr/dialpad_elevation"
     android:layoutDirection="ltr"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:layout_marginTop="10dp">
 
   <!-- Text field where call rate is displayed for ILD calls. -->
   <LinearLayout
@@ -54,11 +56,6 @@
           android:layout_marginStart="4dp"/>
 
     </LinearLayout>
-
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="#e3e3e3"/>
 
   </LinearLayout>
 
@@ -145,11 +142,6 @@
         android:tint="?colorIcon"
         android:tintMode="src_in"/>
   </LinearLayout>
-
-  <View
-      android:layout_width="match_parent"
-      android:layout_height="1dp"
-      android:background="#e3e3e3"/>
 
   <Space
       android:layout_width="match_parent"
