@@ -20,7 +20,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/search_box_expanded"
     android:layout_width="match_parent"
-    android:layout_height="@dimen/collapsed_search_bar_height"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:gravity="center_vertical"
     android:visibility="invisible">
 
   <ImageButton
@@ -38,7 +40,7 @@
       android:forceDarkAllowed="false"
       android:id="@+id/search_view"
       android:layout_width="match_parent"
-      android:layout_height="wrap_content"
+      android:layout_height="48dp"
       android:layout_toEndOf="@+id/search_back_button"
       android:layout_toStartOf="@+id/search_clear_button"
       android:layout_centerVertical="true"
